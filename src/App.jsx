@@ -8,7 +8,7 @@ function App() {
   
   const handleAnalyse = async() => {
     setLoading(true);
-    const response = await fetch("http://localhost:5000/api/analyze", {
+    const response = await fetch("https://opensource-buddy-backend.onrender.com/api/analyze", {
 
       method: "POST",
       headers: {
