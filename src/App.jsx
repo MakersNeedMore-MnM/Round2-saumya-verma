@@ -34,9 +34,6 @@ function App() {
         <div className="flex gap-6 text-sm text-slate-400">
           <a href="#how">How it works</a>
           <a href="#features">Features</a>
-          <button className="rounded-lg bg-white px-2 py-2 text-sm font-medium text-slate-950 transition hover:bg-slate-200">
-            Connect GitHub
-          </button>
         </div>
       </nav>
 
